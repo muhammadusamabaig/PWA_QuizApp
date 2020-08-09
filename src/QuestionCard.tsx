@@ -3,7 +3,7 @@ import './App.css';
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import {getquiz} from './Service_provider'
 
-import { getSpecificData } from './Userproperties'
+import { getSpecificData } from  './Userproperties'
 let tempglobal=1
 export const QuestionCard =(props:any)=> {
   // var temparrr:getSpecificData[] =[{question:"",answer:"",options:['jkdjdk','','','']}]

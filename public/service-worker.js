@@ -6,6 +6,7 @@ this.addEventListener('install',(event)=>{
             chache.addAll([
               '/',
               './app.js'  
+              
             ])
         })
     )

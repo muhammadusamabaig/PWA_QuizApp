@@ -13,7 +13,7 @@ ReactDOM.render(
 <Switch>
 <div>
 
-<Route exact path="/" component={InfoForm}/>
+   <Route exact  path="/"  component={InfoForm}/>
 <Route exact path="/:number/:level" component={QuestionCard}/>
 <Route exact path="/:ObtainedMarks/:detectmarks/:percentage" component={ResultCard}/>
 
